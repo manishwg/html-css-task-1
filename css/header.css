@@ -1,0 +1,133 @@
+
+
+.header a,
+.header a:link {
+    color: #b2b4b7;
+    padding: 0.6em;
+}
+
+.header a:active,
+.header a:hover{
+    color: #00c59a;
+}
+
+
+.navbar .brand{
+    display: inline-block;
+    /* vertical-align: middle; */
+    vertical-align: bottom;
+    font-size: 44px;
+    color: #00c59a;
+    transform: scaleX(0.8);
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.logo{
+    display: inline;
+    position: relative;
+    display: inline;
+    vertical-align: bottom;
+    margin-left: -0.3em;
+    font-size: 44px;
+}
+
+.navbar .brand .logo i:first-child{
+    /* vertical-align: bottom; */
+    font-size: 28px;
+}
+.navbar .brand .logo i:last-child{
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    /* bottom: 0; */
+    font-size: 48px;
+    margin-left: -0.2em;
+    transform: scaleX(0.4);
+    color: #ff3a46;
+}
+
+
+
+.navbar .nav-container-r{
+    float: right;
+    width: fit-content;
+}
+
+.navbar ul{
+    display: inline-block;
+    list-style: none;
+    /* float: left; */
+    height: 100%;
+    line-height: 100%;
+    /* margin: auto 0; */
+    vertical-align: middle;
+}
+
+.navbar ul li{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+
+.navbar ul.nav-primary li{
+    margin-left: 20px;
+}
+
+.navbar ul.nav-secondary{
+    font-size: 12px;
+}
+
+.navbar ul.nav-secondary li{
+    padding: 0;
+    padding-left: 5pxdispl;    
+}
+
+.navbar ul.nav-secondary a {
+    color: #ff3a46;
+}
+
+.navbar ul.nav-secondary a:hover {
+    color: #FFFFFF;
+    background: #ff3a46;
+
+}
+
+
+.nav-social{
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #d0f7ef;
+    padding: 0.5em;
+    text-align: center;
+    height: 15px;
+    width: 15px;
+}
+.nav-search{
+    padding-left: 20px;
+}
+.nav-search li{
+    position: relative;
+}
+
+.nav-search li input.search-bar{
+    width: 120px;
+    display: inline-block;
+    padding: 0.3em 24px 0.3em 0.5em;
+    border: 1px solid #d0f7ef;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+.nav-search li .searchButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border:none;
+    outline:none;
+    text-align:center;
+    background: none;
+    vertical-align: middle;
+    color: #ff3a46
+}
